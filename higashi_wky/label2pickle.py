@@ -2,10 +2,10 @@ import pandas as pd
 import pickle
 
 # labels.txt 文件路径
-txt_file = "/data5/GPT/Wuky/Higashi/Higashi/Monocyte_data/labels.txt"
+txt_file = "/data5/GPT/Wuky/Higashi/Higashi/WKY_data/labels.txt"
 
 # 输出 pickle 文件
-pickle_file = "/data5/GPT/Wuky/Higashi/Higashi/Monocyte_data/label_info.pickle"
+pickle_file = "/data5/GPT/Wuky/Higashi/Higashi/WKY_data/label_info.pickle"
 
 # 读取 txt
 df = pd.read_csv(txt_file, sep="\t")
