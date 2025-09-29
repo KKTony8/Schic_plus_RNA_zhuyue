@@ -1,3 +1,4 @@
+# 这个是单核细胞组的，需要改成自己的thp组
 import os
 import glob
 import pandas as pd
